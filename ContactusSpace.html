@@ -3,34 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <title>Contactus</title>
+    <link rel="stylesheet" href="space.css">
 </head>
 
 <body>
     <header>
-        <table width="100%">
-            <tbody>
-                <tr>
-                    <td>
-                        <img src="Gallery/Logo.png"/>
-                    </td>
-                    <td>
-                        <a href="News.html">News</a> 
-                    </td>
-                    <td>
-                        <a href="#">Contact us</a>  
-                    </td>
-                    <td>
-                        <a href="galeria.html">Gallery</a>  
-                    </td>
-            </tr>
-            </tbody>
-        </table>
-        <a href="SolarSystem.html">Planets</a>>
-        <a href="#">Contact us</a>
+        <ul class="spread-width-list">
+            <li class="one-of-four-list">
+                <nav>
+                    <a href="SolarSystem.html"><div>Planets</div>
+                        <div class="logo">
+                            <span>
+                                <img src="Gallery/Logo.png"/>
+                            </span>
+                        </div>
+                    </a>
+                </nav>
+            </li>
+            <li class="one-of-four-list">
+                <span>
+                    <a href="News.html">News</a> 
+                </span>
+            </li>
+            <li class="one-of-four-list">
+                <span>
+                    <a href="ContactusSpace.html">Contact us</a> 
+                </span>
+            </li>
+            <li class="one-of-four-list">  
+                <span>
+                    <a href="galeria.html">Gallery</a>
+                </span>
+            </li>                                                
+        </ul>
+
+        <ul class="breadcrumb">
+            <li>
+                <a href="SolarSystem.html">Planets</a>>
+            </li>
+            <li>
+                <a href="#">Contact us</a>
+            </li>
+        </ul>
     </header>
     <h1>National Institute of Solar Energy</h1>
-    <p>If you want to find out more about our available courses, please fill in the form below.We would be happy to get back to you as soon as possible.</p>
     <form>
+        <p>If you want to find out more about our available courses, please fill in the form below.We would be happy to get back to you as soon as possible.</p>
         <label>Name:</label>
         <input type="text" name="userName"/>
         <br>
